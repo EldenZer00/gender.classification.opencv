@@ -28,8 +28,8 @@ def getFaceBox(net, frame, conf_threshold=0.7):
     return frameOpencvDnn, bboxes
 
 
-parser = argparse.ArgumentParser(description='Use this script to run age and gender recognition using OpenCV.')
-parser.add_argument('--input', help='Path to input image or video file. Skip this argument to capture frames from a camera.')
+parser = argparse.ArgumentParser(description='Use this script to run gender classifcation.')
+parser.add_argument('--input', help='you need to add URL first')
 
 args = parser.parse_args()
 
